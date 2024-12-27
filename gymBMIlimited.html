@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="designBMI.css">
+    <script src="bmiFunctionLimited.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <header>
+        <a href="homeLimited.html" class="logo"><img src="pik/logo.svg"></a>
+        <ul>
+            <li><a href="homeLimited.html">Home</a></li>
+            <li><a href="gymAboutLimited.html">About Us</a></li>
+            <li><a href="gymBenLimited.html">Gym Benefits</a></li>
+            <li><a href="gymPlanM.html">Gym Plans</a></li>
+            <li><a href="gymBMIlimited.html">BMI Calculator</a></li>
+            <a href="home.html"><button>Start 7 days free trial</button></a>
+        </ul>
+    </header>    
+
+    <div class="lahat">
+    
+    <div class="info" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1500">    
+        <div class="tit">What is BMI?</div>
+        <div class="desc">
+            <span id="p1">Body Mass Index (BMI)</span> is a person’s weight in kilograms (or pounds) divided by the square of height in meters (or feet). A high BMI can indicate high body fatness. BMI screens for weight categories that may lead to health problems, but it does not diagnose the body fatness or health of an individual.
+        </div>
+        <div class="cat">
+            <span id="sp13">BMI Categories: </span><br>
+            <span id="sp14">Underweight = Less than 18.5</span><br>
+            <span id="sp15">Normal Weight = 18.5 to 24.9</span><br>
+            <span id="sp16">Overweight = 25 to 29.9</span><br>
+            <span id="sp17">Obesitiy = BMI of 30 or greater</span>
+        </div>
+    </div>
+
+    <div class="calcu" data-aos="fade-right" data-aos-delay="600" data-aos-duration="1500">
+        <div class="titl">Calculator</div>
+        <span id="sp5">Inches and Pounds</span>
+        <div class="high">
+            <span>Your Height: </span> <input type="text" id="txt1">
+            <input type="text" id="txt2"><br>
+            &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <span id="sp1">feet</span> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <span id="sp2"> inches </span>
+        </div>
+        <div class="wey">
+            <span id="sp3">Your Weight: </span><input type="text" id="txt3"> <br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <span id="sp4">lbs/pounds</span>
+        </div>
+        <div class="result">
+            <button onclick="button1()">Calulate</button> <br>
+            <span id="sp6">You are ...</span>
+        </div>
+        <div class="ic">
+            <img id="img" src="pik/icon.png">
+        </div>
+    </div>
+
+    <div class="calcuu" data-aos="fade-right" data-aos-delay="1100" data-aos-duration="1500">
+        <div class="titl">Calculator</div>
+        <span id="sp5">Meters and Kilograms</span>
+        <div class="high">
+            <span>Your Height: </span> <input type="text" id="txt4"><br>
+            &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <span id="sp1">cm/centimeters</span>
+        </div>
+        <div class="wey">
+            <span id="sp3">Your Weight: </span><input type="text" id="txt5"> <br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <span id="sp4">kg/kilograms</span>
+        </div>
+        <div class="result2">
+            <button onclick="button2()">Calulate</button> <br>
+            <span id="sp6">You are ...</span>
+        </div>
+        <div class="ic">
+            <img id="img" src="pik/icon.png">
+        </div>
+    </div>    
+        
+        
+  </div>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+
+</body>
+</html>

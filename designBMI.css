@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background: #121212;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+section{
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 100px;
+    z-index: 100000;
+}
+
+header.sticky{
+    padding: 5px 100px;
+    background: #000;
+}
+
+header .logo{
+    position: relative;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header ul li{
+    position: relative;
+    list-style: none;
+}
+
+header ul li a{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fffef1;
+    letter-spacing: 1px;
+    font-weight: 500;
+    transition: 0.6s;
+}
+
+ul li a:hover{
+    color: #a2a3e9;
+    font-size: 15pt;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(151, 251, 87, 1);  
+    color: #121212;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s ease 0s;
+  }
+
+button:hover{
+    background-color: rgba(151, 251, 87, 0.8);  
+}
+
+.info{
+    position: absolute;;
+    width: 832px;
+    height: 630px;
+    background-color: #000;
+    padding: 30px;
+    margin-top: 11.4%;
+    margin-left: 5%;
+    border-radius: 3px;
+    box-shadow: 0px 30px 50px #000;
+}
+
+.tit{
+    color: #fffef1;
+    font-size: 40pt;
+    font-weight: 800;
+    color: #97fb57;
+}
+
+.desc{
+    margin-top: 2%;
+    font-weight: 500;
+    font-size: 13.5pt;
+    color: #fffef1;
+    text-align: justify;
+}
+
+.desc span{
+    color: #a2a3e9;
+}
+
+.cat{
+    margin-top: 10%;
+    color: #fffef1;
+    font-size: 14pt;
+    font-weight: 500;
+}
+
+#sp13{
+    font-size: 40pt;
+    font-weight: 800;
+    color: #97fb57;
+}
+
+#sp14{ 
+    color: #f5d10d;
+}
+  
+#sp15{
+    color: #4dc247 ;
+}
+  
+#sp16{
+    color: #e60000;
+}
+  
+#sp17{
+    color: #ff6600 ;
+}
+
+.calcu{
+    position: absolute;
+    width: 441px;
+    height: 630px;
+    background-color: #131313;
+    padding: 30px;
+    margin-top: 11.4%;
+    margin-left: 48%;
+    border-radius: 3px;
+    box-shadow: 0px 30px 50px #000;
+}
+
+.titl{
+    color: #97fb57;
+    font-size: 40pt;
+    font-weight: 800;
+}
+
+.high{
+    margin-top: 10%;
+    margin-left: 1%;
+}
+  
+.high span{
+    font-size: 13pt;
+    font-weight: 500;
+    color: #fff;
+}
+  
+.high input {
+    width: 80px;
+    height: 25px;
+}
+
+#sp1 {
+    font-size: 9pt;
+    color: #fff;
+ }
+  
+#sp2 {
+    font-size: 9pt;
+    color: #fff;
+}
+
+.wey{
+    font-weight: 500;
+    margin-top: 3%;
+    margin-left: 1%;
+}
+
+#txt3 {
+    width: 160px;
+    height: 25px;
+}
+
+
+#sp1 {
+    font-size: 9pt;
+    color: #a2a3e9;
+}
+
+#sp2{
+    font-size: 9pt;
+    color: #a2a3e9;
+}
+
+#sp3 {
+    font-size: 13pt;
+    color: #fff;
+}
+
+#sp4 {
+    font-size: 9pt;
+    color: #a2a3e9;
+}
+  
+#sp5{
+    position: absolute;
+    color: #a2a3e9;
+    font-weight: 500;
+    font-size: 8pt;
+    bottom: 84%;
+    left: 8%;
+}
+
+#sp6{
+    position: absolute;
+    font-weight: 500;
+    font-size: 13pt;
+    margin-top: 2%;
+    margin-left: 1%;
+    color: #fff;
+}
+
+.ic img{
+    position: absolute;
+    top: 377px;
+    left: 180px;
+}
+
+.calcuu{
+    position: absolute;
+    width: 441px;
+    height: 630px;
+    background-color: #333;
+    padding: 30px;
+    margin-top: 11.4%;
+    margin-left: 71%;
+    border-radius: 3px;
+    box-shadow: 0px 30px 50px #000;
+}
+
+#txt4, #txt5{
+    width: 100px;
+    height: 25px;
+}
+

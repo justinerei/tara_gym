@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background: #121212;
+    height: 120vh;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 100px;
+    z-index: 100000;
+}
+
+header.sticky{
+    padding: 5px 100px;
+    background: #000;
+}
+
+header .logo{
+    position: relative;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header ul li{
+    position: relative;
+    list-style: none;
+}
+
+header ul li a{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fffef1;
+    letter-spacing: 1px;
+    font-weight: 500;
+    transition: 0.6s;
+}
+
+ul li a:hover{
+    color: #a2a3e9;
+    font-size: 15pt;
+}
+
+.banner{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('pik/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#sp1{
+    color: #97fb57;
+    text-transform: uppercase;
+}
+
+.tagline{
+    padding-top: 19.5%;
+    color: #fffef1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.quot{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40pt;
+    font-weight: 900;
+}
+
+.desc{
+    font-size: 13pt;
+    padding-top: 1%;
+}
+
+.but{
+    padding-top: 1%;
+}
+
+.but a{
+    background-color: rgba(151, 251, 87, 1);
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #121212;
+    display: inline-block;
+    margin-top: 1%;
+    border-radius: 50px;
+    transition: 0.4s;
+    font-weight: 600;
+}
+
+.but :hover{
+ background-color: rgba(151, 251, 87, 0.8);
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(151, 251, 87, 1);  
+    color: #121212;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s ease 0s;
+  }
+
+button:hover{
+    background-color: rgba(151, 251, 87, 0.8);  
+}
+
+.white{
+    width: 100%;
+    height: 51%;
+    background-color: #121212;
+}
+
+.testimonials{
+    font-family: Less Sans;
+    padding: 40px 0;
+    color: #f1f1f1;
+    text-align: center;
+}
+
+.inner{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+    margin-top: 3%;
+}
+
+.border{
+    width: 160px;
+    height: 5px;
+    background-color: #97fb57;
+    margin: 26px auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col{
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.testi{
+    background-color: #333;
+    padding: 30px;
+    box-shadow: 0px 10px 20px #000;
+}
+
+.testi img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.name{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+    font-weight: 700;
+    color: #fff;
+}
+
+.stars{
+    color: #97fb57;
+    margin-bottom: 20px;
+}
+
+.banner3{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('pik/why1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.three{
+    padding-top: 384px;
+    letter-spacing: 1px;
+    padding-right: 233px;
+    padding-left: 1050px;
+    color: #212529;
+}
+
+.ti{
+    font-size: 40pt;
+    font-weight: 900;
+}
+
+.sup{
+    font-size: 13pt;
+    padding-top: 1em;
+    font-weight: 500;
+}
+
+.banner4{
+    width: 100%;
+    height: 100vh;
+    background: url('pik/coc1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.four{
+    padding-top: 384px;
+    letter-spacing: 1px;
+    padding-right: 233px;
+    padding-left: 1050px;
+    color: #212529;
+}
